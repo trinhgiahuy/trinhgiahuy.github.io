@@ -448,10 +448,12 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-my-bosonai-s-hackathon-project-ranked-2nd-place-in-benchmarking-stream-benchmarking-the-scalable-audio-higgs-model-qwen3-2-tada-project-overview-a-real-life-example-when-you-call-customer-service-you-usually-have-to-press-1-2-or-3-for-different-issues-e-g-ticket-booking-general-questions-refund-policy-etc-so-that-the-call-center-can-direct-you-to-the-appropriate-specialist-weak-points-in-this-business-model-customers-often-do-not-fully-understand-the-exact-problem-they-are-facing-they-just-want-it-resolved-as-quickly-as-possible-why-should-they-be-forced-to-decide-which-category-their-issue-falls-into-it-takes-time-to-direct-the-customer-to-the-correct-representative-who-can-handle-the-matter-it-is-costly-to-maintain-too-many-customer-service-employees-as-one-employee-can-only-serve-one-customer-at-a-time-a-customer-may-have-several-problems-spanning-multiple-domains-making-it-difficult-to-address-all-their-concerns-in-a-single-interaction-amp-gt-we-want-to-revolutionize-the-customer-service-procedure-in-medium-to-large-enterprises-pros-reduced-waiting-time-customers-experience-shorter-waiting-times-since-multiple-calls-can-be-handled-simultaneously-a-single-expert-model-can-serve-many-customers-at-once-human-in-the-loop-if-the-llm-cannot-provide-a-satisfactory-answer-the-conversation-can-be-redirected-to-a-human-responder-cons-cost-effectiveness-investing-in-a-new-customer-service-model-may-not-be-cost-effective-for-small-businesses-or-those-with-relatively-few-customer-service-requests-training-costs-training-an-expert-model-can-be-expensive-legal-barriers-some-business-owners-may-be-reluctant-to-share-sensitive-business-information-with-an-llm-based-model-due-to-privacy-and-security-concern-control-and-responsibility-ensuring-the-llm-provides-appropriate-responses-can-be-difficult-ultimately-while-the-model-generates-answers-the-responsibility-still-lies-with-humans-version-1-not-proper-prompt-engineering",
-          title: 'My BosonAI’s hackathon project ranked 2nd place in benchmarking stream: Benchmarking the scalable...',
+            },},{id: "news-",
+          title: '',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
