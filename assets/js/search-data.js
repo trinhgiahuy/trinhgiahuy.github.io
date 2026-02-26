@@ -474,14 +474,14 @@ ninja.data = [{
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-fpga-based-hevc-video-encoder",
+          title: 'FPGA-based HEVC video encoder',
+          description: "FPGA-based HEVC video encoder implementation using Kactus2 for design tool, camera, and touchscreen.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "with background image",
+            },},{id: "projects-logic-synthesis",
+          title: 'Logic Synthesis',
+          description: "Develop a synthesizer for audio codec with VHDL and implement it on the PYNQ Z1 board",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
