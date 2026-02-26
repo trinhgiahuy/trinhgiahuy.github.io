@@ -453,7 +453,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "projects-project-1",
+            },},{id: "news-our-paper-lightweight-range-angle-imaging-based-algorithm-for-quasi-static-human-detection-on-low-cost-fmcw-radar-received-best-imaging-paper-honorable-mention-at-cvis-2025-11th-annual-conference-on-vision-and-intelligent-systems-trophy",
+          title: 'Our paper “Lightweight Range–Angle Imaging Based Algorithm for Quasi-Static Human Detection on Low-Cost...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
