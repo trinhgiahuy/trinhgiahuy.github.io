@@ -1,12 +1,12 @@
 ---
 layout: post
-title: My [BosonAI](https://www.boson.ai/)'s hackathon project ranked [2nd place]() in benchmarking stream: Benchmarking the scalable Audio Higgs Model + Qwen3.2  :tada:
+title: My [BosonAI](https://www.boson.ai/)'s hackathon project ranked 2nd place in benchmarking stream: Benchmarking the scalable Audio Higgs Model + Qwen3.2 :tada:
 date: 2025-09-06 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-My [BosonAI](https://www.boson.ai/)'s hackathon project ranked [2nd place]() in benchmarking stream: Benchmarking the scalable Audio Higgs Model + Qwen3.2  :tada:
+My [BosonAI](https://www.boson.ai/)'s hackathon project ranked 2nd place in benchmarking stream: Benchmarking the scalable Audio Higgs Model + Qwen3.2  :tada:
 
 ---
 
