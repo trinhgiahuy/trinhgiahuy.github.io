@@ -24,10 +24,12 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am Master of Applied Science (M.ASc) in Electrical and Computer Engineering Student at [University of Waterloo](https://uwaterloo.ca/), where my current research focuses on
-I was supervised under [Prof. George Shaker](https://uwaterloo.ca/electrical-computer-engineering/profile/gshaker) at [Wireless Sensors and Device Lab (WSDL)](https://uwaterloo.ca/wireless-sensors-and-devices-lab/) and [Prof. Elliot Creager](https://ecreager.github.io/) at Socially Embedded Machine Intelligence (SEMI) lab.
+I am Master of Applied Science (M.ASc) in Electrical and Computer Engineering Student at [University of Waterloo](https://uwaterloo.ca/), where my current research focuses the intersection of generative AI, wireless sensing and optimized system. I was supervised under [Prof. George Shaker](https://uwaterloo.ca/electrical-computer-engineering/profile/gshaker) at [Wireless Sensors and Device Lab (WSDL)](https://uwaterloo.ca/wireless-sensors-and-devices-lab/) and [Prof. Elliot Creager](https://ecreager.github.io/) at Socially Embedded Machine Intelligence (SEMI) lab. Also, I am a Faculty Affiliate Researcher at [Vector Institute](https://vectorinstitute.ai/), and Research Engineer at Joint Project with [Ansys](https://www.ansys.com/). I was a teaching assistant for "ECE 459: Programming for Performance and Systems Programming" and "ECE 252: Systems Programming and Concurrency" courses with [Dr. Jeff Zarnett](https://github.com/jzarnett), [Dr. Wojciech Golab](https://uwaterloo.ca/electrical-computer-engineering/profile/wgolab), [Dr. Andrew Morton](https://uwaterloo.ca/electrical-computer-engineering/profile/arrmorto), [Dr. Mojtaba Aajami](https://scholar.google.com/citations?user=XQEolqoAAAAJ&hl=en).
 
-Part-time enthusiastic about High-Performance Computing, AI Accelerators, Low-Level Programming, and Embedded Systems.
+Previously, I am intern at Supercomputing Performance Research Team (SuPer) at [RIKEN Center for Computational Science (R-CCS)](https://www.riken.jp/en/research/labs/r-ccs/) under [Dr.Jens Domke](https://domke.gitlab.io/), research assistant under [Dr. Philipp Müller](https://www.tuni.fi/en/people/philipp-muller) and [Dr. Pavel Davidson](https://scholar.google.com/citations?user=9ucTTJQAAAAJ&hl=en) at Tampere University. I am visiting researcher at University 
+
+
+<!-- Part-time enthusiastic about High-Performance Computing, AI Accelerators, Low-Level Programming, and Embedded Systems. -->
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
