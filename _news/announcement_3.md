@@ -148,12 +148,6 @@ We route into:
 
 ## Benchmarking: Concurrency
 
-<!-- {% include figure.html
-  path="assets/img/posts/bosonai_hackathon/slide_05_concurrency.png"
-  class="img-fluid rounded z-depth-1"
-  alt="Latency p50/p95 by stage vs concurrency"
-  caption="Concurrency benchmark (replace with your exported plot image)."
-%} -->
 <img
   src="/assets/img/posts/bosonai_hackathon/slide_05_concurrency.png"
   class="img-fluid rounded z-depth-1"
