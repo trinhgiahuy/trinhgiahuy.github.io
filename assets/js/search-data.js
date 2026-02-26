@@ -448,8 +448,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-my-hackathon-project-ranked-2nd-place-in-benchmarking-stream-benchmarking-the-scalable-audio-higgs-model-qwen3-2-tada",
+          title: 'My hackathon project ranked 2nd place in benchmarking stream: Benchmarking the scalable Audio...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
