@@ -40,3 +40,29 @@ seconds, equivalent to a performance rate of 147.7 Gflop/s.
 Despite the performance exhibited by HPL in both scenarios
 being quite low, the latter configuration better aligns with the
 specifications of the current 128-core system.
+
+<!-- **Table III. Performance of single core using dgemm** -->
+<p class="text-muted" style="margin-top:0.5rem;">
+  <strong>Table III.</strong> Performance of single core using <code>dgemm</code>.
+</p>
+
+|            | cblas_dgemm (OpenBLAS) | dgemm (ARMPL) |
+|------------|-------------------------:|--------------:|
+| GFLOP/s    | 19.477                   | 20.809        |
+
+**Steps to compile**
+
+```bash
+# This is a bash comment
+mkdir m4_source
+cd m4_source
+wget https://ftp.gnu.org/gnu/m4/m4-1.4.19.tar.gz
+tar -xzvf m4-1.4.19.tar.gz
+
+export CC=clang
+export CXX=clang++
+./configure --prefix=$HOME/m4_source/m4-1.4.19/
+make && make install
+
+export PATH=$HOME/m4_source/m4-1.4.19/bin:$PATH
+```

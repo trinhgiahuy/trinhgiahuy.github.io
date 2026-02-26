@@ -1,19 +1,30 @@
 ---
 layout: page
 title: Toward Autonomous Room Reservation
-description: IoT-based solution using PIR_motion, M5StickC ESP32-PICO, Arduino 
+description: IoT-based solution using PIR_motion, M5StickC ESP32-PICO, Arduino, Adafruit WINC1500 WiFi Shield, 4G-Dongle, Raspberry Pi,  
 img: assets/img/headline/m5stack.png
 importance: 1
 category: work
 related_publications: true
 ---
+### System Diagram
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
+
+```
+         (dhcp)         bridge
+           ╱    wifi    ┌───────┐
+mobile-phone <~.~.~.~.> │(wlan0)│            
+                        │    br0│RPi
+      4G-Dongle <──────>|(eth1) │╲      
+           ╲    wired   └───────┘╱    
+         (dhcp)            192.168.66.1
+```
+
+<div class="ratio ratio-16x9" style="border-radius: 12px; overflow: hidden;">
   <iframe
-    src="https://www.youtube.com/embed/1eArDTtim0I"
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    src="https://www.youtube.com/watch?v=1eArDTtim0I&source_ve_path=MTc4NDI0"
+    title="Toward Autonomous Room Reservation demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
-    title="Toward Autonomous Room Reservation demo"
   ></iframe>
 </div>
