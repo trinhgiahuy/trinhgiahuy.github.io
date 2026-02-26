@@ -56,7 +56,7 @@ Below are paired audio clips (caller request → agent response).
     <h4>Example 1 — Simple QA</h4>
     <p><strong>Caller</strong>: “What is two plus two?”</p>
     <audio controls preload="none" style="width:100%;">
-      <source src="{{ '/assets/audio/bosonai_hackathon/q1_caller.mp4' | relative_url }}" type="audio/mpeg">
+      <source src="{{ '/assets/audio/bosonai_hackathon/q1_caller.mp3' | relative_url }}" type="audio/mpeg">
     </audio>
   </div>
 
@@ -64,7 +64,7 @@ Below are paired audio clips (caller request → agent response).
     <h4>&nbsp;</h4>
     <p><strong>Agent</strong>: short phrase answer</p>
     <audio controls preload="none" style="width:100%;">
-      <source src="{{ '/assets/audio/bosonai_hackathon/q1_agent.mp4' | relative_url }}" type="audio/mpeg">
+      <source src="{{ '/assets/audio/bosonai_hackathon/q1_agent.mp3' | relative_url }}" type="audio/mpeg">
     </audio>
   </div>
 </div>
