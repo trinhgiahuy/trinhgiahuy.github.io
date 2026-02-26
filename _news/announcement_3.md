@@ -184,7 +184,7 @@ Latency p50/p95 by stage vs concurrency"
     alt="Department and intent confusion matrices"
     />
     <p class="text-muted" style="margin-top: 0.5rem;">
-    Confusion matrices (department / intent).
+    Confusion matrices on SMALL DATASET (department / intent).
     </p>
   </div>
 </div>
@@ -193,6 +193,19 @@ Latency p50/p95 by stage vs concurrency"
 - Dataset: **64 examples**
 - Department accuracy: **87.5%**
 - Intent accuracy: **87.5%**
+
+<div class="row">
+  <div class="col-md-12">
+    <img
+    src="/assets/img/posts/bosonai_hackathon/slide_08_confusion.png"
+    class="img-fluid rounded z-depth-1"
+    alt="Department and intent confusion matrices"
+    />
+    <p class="text-muted" style="margin-top: 0.5rem;">
+    Confusion matrices on LARGE DATASET (department / intent).
+    </p>
+  </div>
+</div>
 
 <!-- --- -->
 
