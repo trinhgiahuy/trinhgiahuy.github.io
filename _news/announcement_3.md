@@ -9,25 +9,29 @@ categories: [project]
 permalink: /news/bosonai-hackathon/
 ---
 
-My [BosonAI](https://www.boson.ai/)'s hackathon project ranked 2nd place in benchmarking stream: Benchmarking the scalable Audio Higgs Model + Qwen3.2  :tada:
+My [BosonAI](https://www.boson.ai/)'s hackathon project ranked 2nd place in benchmarking stream: Benchmarking the scalable Audio Higgs Model + Qwen3.2 :tada:
 
 ---
 
 ## Project Overview
 
 ### Problem
+
 When customers call support, they often get forced into a rigid menu (“press 1/2/3…”), even though:
+
 - they don’t know which category their issue belongs to,
 - routing takes time,
 - scaling human agents is expensive,
 - requests can span multiple domains.
 
 ### Our idea
+
 Use **audio-first routing**:
-1) synthesize/ingest caller request (TTS caller),
-2) **understand** request → decide **department + intent**,
-3) dispatch to the right **expert model**,
-4) respond as an **agent** via TTS.
+
+1. synthesize/ingest caller request (TTS caller),
+2. **understand** request → decide **department + intent**,
+3. dispatch to the right **expert model**,
+4. respond as an **agent** via TTS.
 
 ---
 
@@ -37,7 +41,7 @@ Use **audio-first routing**:
   path="assets/img/posts/bosonai_hackathon/slide_03_system.png"
   class="img-fluid rounded z-depth-1"
   alt="System diagram of HiggAudioUnderstand routing to expert models and TTS agent"
-  caption="System pipeline: audio request → understanding/router → expert(s) → TTS agent response."
+  caption="System pipeline: audio request => understanding/router => expert(s) => TTS agent response."
 %}
 
 ---
