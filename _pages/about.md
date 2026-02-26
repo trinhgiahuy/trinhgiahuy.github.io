@@ -17,12 +17,12 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: # leave blank to include all the blog posts
 ---
 
 I am Master of Applied Science (M.ASc) student in Electrical and Computer Engineering at [University of Waterloo](https://uwaterloo.ca/), where my current research focuses on the intersection of generative AI, wireless sensing and optimized system. I was supervised under [Prof. George Shaker](https://uwaterloo.ca/electrical-computer-engineering/profile/gshaker) at [Wireless Sensors and Device Lab (WSDL)](https://uwaterloo.ca/wireless-sensors-and-devices-lab/) and [Prof. Elliot Creager](https://ecreager.github.io/) at Socially Embedded Machine Intelligence (SEMI) lab. Also, I am a Faculty Affiliate Researcher at [Vector Institute](https://vectorinstitute.ai/), and Research Engineer under joint project with [Ansys](https://www.ansys.com/). I was a teaching assistant for "ECE 459: Programming for Performance and Systems Programming" and "ECE 252: Systems Programming and Concurrency" courses at University of Waterloo with [Dr. Jeff Zarnett](https://github.com/jzarnett), [Dr. Wojciech Golab](https://uwaterloo.ca/electrical-computer-engineering/profile/wgolab), [Dr. Andrew Morton](https://uwaterloo.ca/electrical-computer-engineering/profile/arrmorto), [Dr. Mojtaba Aajami](https://scholar.google.com/citations?user=XQEolqoAAAAJ&hl=en).
