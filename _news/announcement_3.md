@@ -4,9 +4,10 @@ title: My BosonAI's hackathon project ranked 2nd place in benchmarking stream - 
 date: 2025-09-06 07:59:00-0400
 inline: false
 related_posts: false
-tags: [hackathon, llm, benchmarking, audio, routing]
-categories: [project]
-permalink: /news/bosonai-hackathon/
+# render_with_liquid: true
+# tags: [hackathon, llm, benchmarking, audio, routing]
+# categories: [project]
+# permalink: /news/bosonai-hackathon/
 ---
 
 My [BosonAI](https://www.boson.ai/)'s hackathon project ranked 2nd place in benchmarking stream: Benchmarking the scalable Audio Higgs Model + Qwen3.2 :tada:
@@ -37,12 +38,14 @@ Use **audio-first routing**:
 
 ## System Diagram
 
-{% include figure.html
-  path="assets/img/posts/bosonai_hackathon/slide_03_system.png"
+<img
+  src="/assets/img/posts/bosonai_hackathon/slide_03_system.png"
   class="img-fluid rounded z-depth-1"
   alt="System diagram of HiggAudioUnderstand routing to expert models and TTS agent"
-  caption="System pipeline: audio request => understanding/router => expert(s) => TTS agent response."
-%}
+/>
+<p class="text-muted" style="margin-top: 0.5rem;">
+  System pipeline: audio request → understanding/router → expert(s) → TTS agent response.
+</p>
 
 ---
 
@@ -56,7 +59,7 @@ Below are paired audio clips (caller request → agent response).
     <h4>Example 1 — Simple QA</h4>
     <p><strong>Caller</strong>: “What is two plus two?”</p>
     <audio controls preload="none" style="width:100%;">
-      <source src="{{ '/assets/audio/bosonai_hackathon/q1_caller.mp3' | relative_url }}" type="audio/mpeg">
+    <source src="/assets/audio/bosonai_hackathon/q1_caller.mp3" type="audio/mpeg" />
     </audio>
   </div>
 
@@ -64,7 +67,7 @@ Below are paired audio clips (caller request → agent response).
     <h4>&nbsp;</h4>
     <p><strong>Agent</strong>: short phrase answer</p>
     <audio controls preload="none" style="width:100%;">
-      <source src="{{ '/assets/audio/bosonai_hackathon/q1_agent.mp3' | relative_url }}" type="audio/mpeg">
+    <source src="/assets/audio/bosonai_hackathon/q1_agent.mp3" type="audio/mpeg" />
     </audio>
   </div>
 </div>
