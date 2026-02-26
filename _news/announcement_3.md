@@ -13,36 +13,6 @@ My [BosonAI](https://www.boson.ai/)'s hackathon project ranked 2nd place in benc
 
 ---
 
-<div class="row">
-  <div class="col-md-8">
-    <p class="lead">
-      Our team ranked <strong>2nd place</strong> in the benchmarking stream:
-      <strong>Benchmarking the scalable Audio Higgs Model + Qwen3.2</strong>.
-    </p>
-
-    <p>
-      This page is a “PowerPoint → Web” version of our demo: system overview, audio examples,
-      benchmark results, and an interactive-style walkthrough.
-    </p>
-
-    <p>
-      <a class="btn btn-primary btn-sm" href="YOUR_LIVE_DEMO_LINK" target="_blank" rel="noopener">Try Live Demo</a>
-      <a class="btn btn-outline-secondary btn-sm" href="YOUR_REPO_LINK" target="_blank" rel="noopener">Code</a>
-      <a class="btn btn-outline-secondary btn-sm" href="YOUR_SLIDES_PDF_LINK" target="_blank" rel="noopener">Slides</a>
-    </p>
-  </div>
-
-  <!-- <div class="col-md-4">
-    {% include figure.html
-      path="assets/img/posts/bosonai_hackathon/slide_01_title.png"
-      class="img-fluid rounded z-depth-1"
-      alt="BosonAI hackathon title slide"
-    %}
-  </div> -->
-</div>
-
-<hr/>
-
 ## Project Overview
 
 ### Problem
