@@ -440,7 +440,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer-competition-link-third-place-medal",
+            },},{id: "news-finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer-competition-trophy-link",
           title: 'Finnish student team Revontuli took the third place in an international student supercomputer...',
           description: "",
           section: "News",},{id: "news-our-team-win-the-agrifood-challenge-at-smart-summer-school-mcgill-university-montreal-canada-trophy",
