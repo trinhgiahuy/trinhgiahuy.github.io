@@ -100,7 +100,7 @@ Below are paired audio clips (caller request → agent response).
     <h4>Example 0</h4>
     <p class="text-muted">“Please help me make a new reservation for Toronto.”</p>
     <audio controls preload="none" style="width:100%;">
-      <source src="/assets/audio/bosonai_hackathon/example0.mp4" type="audio/mpeg">
+      <source src="/assets/audio/bosonai_hackathon/example0.mp3" type="audio/mpeg">
     </audio>
   </div>
 
@@ -108,7 +108,7 @@ Below are paired audio clips (caller request → agent response).
     <h4>Example 35</h4>
     <p class="text-muted">“Online check-in isn’t working for me.”</p>
     <audio controls preload="none" style="width:100%;">
-      <source src="/assets/audio/bosonai_hackathon/example35.mp4" type="audio/mpeg">
+      <source src="/assets/audio/bosonai_hackathon/example35.mp3" type="audio/mpeg">
     </audio>
   </div>
 
@@ -116,7 +116,7 @@ Below are paired audio clips (caller request → agent response).
     <h4>Example 56</h4>
     <p class="text-muted">“Set up UM service for my child.”</p>
     <audio controls preload="none" style="width:100%;">
-      <source src="/assets/audio/bosonai_hackathon/example56.mp4" type="audio/mpeg">
+      <source src="/assets/audio/bosonai_hackathon/example56.mp3" type="audio/mpeg">
     </audio>
   </div>
 </div>
