@@ -1,7 +1,7 @@
 ---
 layout: page
-title: blackbox-Pico  
-description: affordable blackbox for motorcycle  
+title: blackbox-Pico
+description: affordable blackbox for motorcycle
 img: assets/img/headline/pico1.png
 importance: 1
 category: work

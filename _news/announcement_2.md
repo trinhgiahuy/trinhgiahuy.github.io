@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our team win the Agrifood Challenge at SMART Summer School, McGill University, Montreal, Canada. :trophy: 
+Our team win the Agrifood Challenge at SMART Summer School, McGill University, Montreal, Canada. :trophy:

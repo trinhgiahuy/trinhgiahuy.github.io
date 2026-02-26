@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ARM Neoverse-N1 Compiler Options 
+title: ARM Neoverse-N1 Compiler Options
 description: Benchmarking toolchain for HPC flagships softwares on ARM Neoverse-N1 CPU
 img: assets/img/headline/arm_flagship_benchmark.png
 importance: 2
@@ -8,7 +8,7 @@ category: work
 giscus_comments: true
 ---
 
-Our supercomputing node 07 is equipped with an ARM Neoverse-N1 CPU. Our all baseline softwares are 64-bit running binaries. 
+Our supercomputing node 07 is equipped with an ARM Neoverse-N1 CPU. Our all baseline softwares are 64-bit running binaries.
 
 However, before making changes, the toolchain will save copies of all of these. In detail, in this version, we only make changes at run-time. These changes
 will be merged later if all results are ready and reliable. All workflow scripts can be found under the tools directory.
@@ -46,9 +46,9 @@ specifications of the current 128-core system.
   <strong>Table III.</strong> Performance of single core using <code>dgemm</code>.
 </p>
 
-|            | cblas_dgemm (OpenBLAS) | dgemm (ARMPL) |
-|------------|-------------------------:|--------------:|
-| GFLOP/s    | 19.477                   | 20.809        |
+|         | cblas_dgemm (OpenBLAS) | dgemm (ARMPL) |
+| ------- | ---------------------: | ------------: |
+| GFLOP/s |                 19.477 |        20.809 |
 
 **Steps to compile**
 

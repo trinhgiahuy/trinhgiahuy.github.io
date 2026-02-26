@@ -43,6 +43,7 @@ Use **audio-first routing**:
   class="img-fluid rounded z-depth-1"
   alt="System diagram of HiggAudioUnderstand routing to expert models and TTS agent"
 />
+
 <p class="text-muted" style="margin-top: 0.5rem;">
   System pipeline: audio request → understanding/router → expert(s) → TTS agent response.
 </p>
@@ -124,7 +125,9 @@ Below are paired audio clips (caller request → agent response).
 <br/>
 
 ### Routing taxonomy (skeleton)
+
 We route into:
+
 - **Department** (BOOKING / CHANGES / REFUNDS / …)
 - **Intention** (NEW_BOOKING / SEAT_SELECTION / …)
 
@@ -153,18 +156,19 @@ We route into:
   class="img-fluid rounded z-depth-1"
   alt="Latency p50/p95 by stage vs concurrency"
 />
+
 <p class="text-muted" style="margin-top: 0.5rem;">
 Latency p50/p95 by stage vs concurrency"
 </p>
 
-
 ### Key metrics (fill in)
-| Setting | p50 Total Latency (ms) | p95 Total Latency (ms) | Notes |
-|---|---:|---:|---|
-| C=1 | TBD | TBD | baseline |
-| C=2 | TBD | TBD |  |
-| C=4 | TBD | TBD |  |
-| C=8 | TBD | TBD |  |
+
+| Setting | p50 Total Latency (ms) | p95 Total Latency (ms) | Notes    |
+| ------- | ---------------------: | ---------------------: | -------- |
+| C=1     |                    TBD |                    TBD | baseline |
+| C=2     |                    TBD |                    TBD |          |
+| C=4     |                    TBD |                    TBD |          |
+| C=8     |                    TBD |                    TBD |          |
 
 ---
 
@@ -184,6 +188,7 @@ Latency p50/p95 by stage vs concurrency"
 </div>
 
 ### Summary numbers (example)
+
 - Dataset: **64 examples**
 - Department accuracy: **87.5%**
 - Intent accuracy: **87.5%**
@@ -228,6 +233,7 @@ If you’re using YouTube instead, paste an iframe here: -->
 ## Reproducibility
 
 **Environment**
+
 - TTS caller: HiggAudio v2
 - Router: HiggAudioUnderstand + Qwen3.2
 - TTS agent: HiggAudio v2
@@ -240,3 +246,4 @@ pip install -r requirements.txt
 
 # 2) run demo
 python demo.py --config configs/demo.yaml
+```
