@@ -2,7 +2,7 @@
 layout: page
 title: ARM Neoverse-N1 Compiler Options 
 description: Benchmarking toolchain for HPC flagships softwares on ARM Neoverse-N1 CPU
-img: assets/img/headlines/arm_flagship_benchmark.png
+img: assets/img/headline/arm_flagship_benchmark.png
 importance: 2
 category: work
 giscus_comments: true
