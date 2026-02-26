@@ -440,15 +440,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-third-place-medal-finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer-competition-link",
+          title: ':third_place_medal: Finnish student team Revontuli took the third place in an international student...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-first-place-medal-our-team-win-the-agrifood-challenge-at-smart-summer-school-mcgill-university-montreal-canada",
+          title: ':first_place_medal: Our team win the Agrifood Challenge at SMART Summer School, McGill University,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-my-bosonai-39-s-hackathon-project-ranked-2nd-place-in-benchmarking-stream-benchmarking-the-scalable-audio-higgs-model-and-qwen3-2",
+          section: "News",},{id: "news-my-bosonai-39-s-hackathon-project-ranked-2nd-place-in-benchmarking-stream-benchmarking-the-scalable-audio-higgs-model-and-qwen3-2",
           title: 'My BosonAI&amp;#39;s hackathon project ranked 2nd place in benchmarking stream - Benchmarking the...',
           description: "",
           section: "News",handler: () => {
