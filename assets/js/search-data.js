@@ -459,9 +459,9 @@ ninja.data = [{
           description: "affordable blackbox for motorcycle",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-arm-neoverse-n1-compiler-options",
+          title: 'ARM Neoverse-N1 Compiler Options',
+          description: "Benchmarking toolchain for HPC flagships softwares on ARM Neoverse-N1 CPU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
