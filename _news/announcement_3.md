@@ -2,7 +2,7 @@
 layout: post
 title: My BosonAI's hackathon project ranked 2nd place in benchmarking stream - Benchmarking the scalable Audio Higgs Model and Qwen3.2
 date: 2025-09-06 07:59:00-0400
-inline: true
+inline: false
 related_posts: false
 ---
 
