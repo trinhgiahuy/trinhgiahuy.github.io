@@ -2,7 +2,7 @@
 layout: page
 title: project 6
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/headline/synthesizer_for_audio_codec.gif
 importance: 1
 category: work
 related_publications: true
