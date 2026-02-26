@@ -443,7 +443,7 @@ ninja.data = [{
             },},{id: "news-finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer-competition-link-third-place-medal",
           title: 'Finnish student team Revontuli took the third place in an international student supercomputer...',
           description: "",
-          section: "News",},{id: "news-our-team-win-the-agrifood-challenge-at-smart-summer-school-mcgill-university-montreal-canada-first-place-medal",
+          section: "News",},{id: "news-our-team-win-the-agrifood-challenge-at-smart-summer-school-mcgill-university-montreal-canada-trophy",
           title: 'Our team win the Agrifood Challenge at SMART Summer School, McGill University, Montreal,...',
           description: "",
           section: "News",},{id: "news-my-bosonai-39-s-hackathon-project-ranked-2nd-place-in-benchmarking-stream-benchmarking-the-scalable-audio-higgs-model-and-qwen3-2",
