@@ -1,81 +1,42 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: ARM Neoverse-N1 Compiler Options 
+description: Benchmarking toolchain for HPC flagships softwares on ARM Neoverse-N1 CPU
+img: assets/img/headlines/arm_flagship_benchmark.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Our supercomputing node 07 is equipped with an ARM Neoverse-N1 CPU. Our all baseline softwares are 64-bit running binaries. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+However, before making changes, the toolchain will save copies of all of these. In detail, in this version, we only make changes at run-time. These changes
+will be merged later if all results are ready and reliable. All workflow scripts can be found under the tools directory.
+We used Spack to manage multiple packages and software.
+Some benchmarks (e.g. HPL, MiniFE, ...) depend on Math-
+Kernel Library (MKL) to compile source code. The existing
+framework uses Intel MKL, which primarily targets Intel
+processors and there is no available version for ARM archi-
+tectures. In this case, we compiled OpenBLAS [cite Github
+here], an open-source alternative to MKL, and linked against
+these benchmarks.
+For the M V M C benchmark, we need to further install
+Scalable Linear Algebra PACKage (ScaLAPACK) from source
+[2] and run the test in Python 2.7 virtual environment (created
+from Anaconda).
+For the High-Performance Linpack (HPL) benchmark com-
+piled with OpenBLAS as the linked library, the optimal result
+appears to be impractical. The most efficient run configuration
+was observed to be 12|2, achieving a wall time of around
+249.628 seconds. Considering that a 12|2 configuration on
+a 128-core system is not feasible, we conducted a matrix-
+multiplication test using the dgemm function from Open-
+BLAS and ARMPL to ascertain the flop/s performance of
+an individual core. The results are shown in table III. Sub-
+sequently, upon recompiling HPL to link with ARM Perfor-
+mance Libraries (ARMPL) [3], the best test run configuration
+was 16|8, resulting in a wall time of approximately 226.108
+seconds, equivalent to a performance rate of 147.7 Gflop/s.
+Despite the performance exhibited by HPL in both scenarios
+being quite low, the latter configuration better aligns with the
+specifications of the current 128-core system.

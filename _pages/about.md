@@ -22,7 +22,7 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a Master of Applied Science (M.ASc.) student in Electrical and Computer Engineering at the [University of Waterloo](https://uwaterloo.ca/). My research sits at the intersection of **wireless sensing**, **generative AI**, and **systems optimization**. I am supervised by [Prof. George Shaker](https://uwaterloo.ca/electrical-computer-engineering/profile/gshaker) in the [Wireless Sensors and Devices Lab (WSDL)](https://uwaterloo.ca/wireless-sensors-and-devices-lab/) and [Prof. Elliot Creager](https://ecreager.github.io/) in the Socially Embedded Machine Intelligence (SEMI) Lab. I also a Faculty Affiliate Researcher with the [Vector Institute](https://vectorinstitute.ai/) and as a Research Engineer on a joint project with [Ansys](https://www.ansys.com/). At Waterloo, I have been a teaching assistant for **ECE 459 (Programming for Performance)** and **ECE 252 (Systems Programming and Concurrency)**, working with [Dr. Jeff Zarnett](https://github.com/jzarnett), [Dr. Wojciech Golab](https://uwaterloo.ca/electrical-computer-engineering/profile/wgolab), [Dr. Andrew Morton](https://uwaterloo.ca/electrical-computer-engineering/profile/arrmorto), and [Dr. Mojtaba Aajami](https://scholar.google.com/citations?user=XQEolqoAAAAJ&hl=en). And I was a core member at [WatAI](https://watai.ca/).

@@ -8,6 +8,8 @@ category: work
 related_publications: true
 ---
 
+<img src="/assets/img/headline/pico1.png" style="width:100%; max-width:1000px; display:block; margin: 0 auto;" />
+
 The repository contains necessary files for project. The project is my work since late August 2022. It includes building blackbox for motorcycle from source, create SQL Server database and virtualize result on web
 
 <div class="row">
