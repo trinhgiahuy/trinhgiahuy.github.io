@@ -38,13 +38,28 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-/* --- Project card alignment: force equal thumbnail height --- */
-.projects .card-img-top,
-.projects .card-img,
-.projects img.preview,
-.projects .project-card img {
-  width: 100%;
-  height: 220px;      /* adjust: 180–260 depending on how tall you want cards */
-  object-fit: cover;  /* crop instead of stretching */
-  display: block;
-}
+/* --- Make project grid cards uniform height --- */
+.projects .card {
+   height: 100%;
+ }
+ 
+ .projects .card-title {
+   display: -webkit-box;
+   -webkit-line-clamp: 2;   /* title max 2 lines */
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+ }
+ 
+ .projects .card-text {
+   display: -webkit-box;
+   -webkit-line-clamp: 3;   /* description max 3 lines */
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+ }
+ /* Project thumbnail crop */
+.projects .card-img-top {
+   width: 100%;
+   height: 220px;
+   object-fit: cover;
+   display: block;
+ }

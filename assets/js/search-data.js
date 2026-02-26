@@ -486,7 +486,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-toward-autonomous-room-reservation",
           title: 'Toward Autonomous Room Reservation',
-          description: "IoT-based solution using PIR_motion, M5StickC ESP32-PICO, Arduino",
+          description: "IoT-based solution using PIR_motion, M5StickC ESP32-PICO, Arduino, Adafruit WINC1500 WiFi Shield, 4G-Dongle, Raspberry Pi,",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
