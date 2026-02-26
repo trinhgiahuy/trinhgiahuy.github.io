@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:third_place_medal: Finnish student team Revontuli took the third place in an international student supercomputer competition [Link](https://www.aalto.fi/en/news/finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer)
+Finnish student team Revontuli took the third place in an international student supercomputer competition [Link](https://www.aalto.fi/en/news/finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer) :third_place_medal: 
