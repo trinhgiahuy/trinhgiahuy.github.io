@@ -454,9 +454,9 @@ ninja.data = [{
             },},{id: "news-our-paper-lightweight-range-angle-imaging-based-algorithm-for-quasi-static-human-detection-on-low-cost-fmcw-radar-received-best-imaging-paper-honorable-mention-at-cvis-2025-11th-annual-conference-on-vision-and-intelligent-systems-trophy",
           title: 'Our paper “Lightweight Range–Angle Imaging Based Algorithm for Quasi-Static Human Detection on Low-Cost...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-blackbox-pico",
+          title: 'blackbox-Pico',
+          description: "affordable blackbox for motorcycle",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
@@ -481,7 +481,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
-          description: "a project with no image",
+          description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
