@@ -440,11 +440,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-third-place-medal-finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer-competition-link",
-          title: ':third_place_medal: Finnish student team Revontuli took the third place in an international student...',
+            },},{id: "news-finnish-student-team-revontuli-took-the-third-place-in-an-international-student-supercomputer-competition-link-third-place-medal",
+          title: 'Finnish student team Revontuli took the third place in an international student supercomputer...',
           description: "",
-          section: "News",},{id: "news-first-place-medal-our-team-win-the-agrifood-challenge-at-smart-summer-school-mcgill-university-montreal-canada",
-          title: ':first_place_medal: Our team win the Agrifood Challenge at SMART Summer School, McGill University,...',
+          section: "News",},{id: "news-our-team-win-the-agrifood-challenge-at-smart-summer-school-mcgill-university-montreal-canada-first-place-medal",
+          title: 'Our team win the Agrifood Challenge at SMART Summer School, McGill University, Montreal,...',
           description: "",
           section: "News",},{id: "news-my-bosonai-39-s-hackathon-project-ranked-2nd-place-in-benchmarking-stream-benchmarking-the-scalable-audio-higgs-model-and-qwen3-2",
           title: 'My BosonAI&amp;#39;s hackathon project ranked 2nd place in benchmarking stream - Benchmarking the...',
@@ -514,35 +514,21 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/cv_huy_trinh.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("mailto:%6D%69%63%68%65%6C%74%72%69%6E%68%30%35%30%32%30%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=05aZndgAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
