@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-10'
+  last_updated: '2026-04-22'
 papers:
   05aZndgAAAAJ:2osOgNQ5qMEC:
     citations: 47
@@ -53,8 +53,12 @@ papers:
     citations: 0
     title: Doppler-Domain Respiratory Amplification for Semi-Static Human Occupancy Detection Using Low-Resolution SIMO FMCW Radar
     year: '2026'
+  05aZndgAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: Doppler-Domain Warping and Resampling for Semi-Static Human Occupancy Detection Using Low-Resolution SIMO FMCW Radar
+    year: '2026'
   05aZndgAAAAJ:qjMakFHDy7sC:
-    citations: 34
+    citations: 35
     title: Energy-aware mobile edge computing for low-latency visual data processing
     year: '2017'
   05aZndgAAAAJ:roLk4NBRz8UC:
