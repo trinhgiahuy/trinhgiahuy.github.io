@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-04'
 papers:
   05aZndgAAAAJ:2osOgNQ5qMEC:
     citations: 47
     title: 'AGRA: AI-augmented geographic routing approach for IoT-based incident-supporting applications'
     year: '2019'
   05aZndgAAAAJ:9yKSN-GCB0IC:
-    citations: 92
+    citations: 93
     title: Energy-aware mobile edge computing and routing for low-latency visual data processing
     year: '2018'
   05aZndgAAAAJ:IjCSPb-OGe4C:
