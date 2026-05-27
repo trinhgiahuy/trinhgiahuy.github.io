@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-27'
 papers:
+  05aZndgAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: Human Remote Sensing In Long-Term Care Facility Using Low-Cost FMCW Radar
+    year: '2026'
   05aZndgAAAAJ:2osOgNQ5qMEC:
     citations: 47
     title: 'AGRA: AI-augmented geographic routing approach for IoT-based incident-supporting applications'
@@ -70,7 +74,7 @@ papers:
     title: ON THE EVALUATION OF NEURAL NETWORK DEPLOYMENT OPTIONS
     year: '2023'
   05aZndgAAAAJ:u5HHmVD_uO8C:
-    citations: 13
+    citations: 14
     title: Surrogate modelling for oxygen uptake prediction using LSTM neural network
     year: '2023'
   05aZndgAAAAJ:ufrVoPGSRksC:
@@ -78,6 +82,6 @@ papers:
     title: Generative Latent Alignment for Interpretable Radar Based Occupancy Detection in Ambient Assisted Living
     year: '2026'
   05aZndgAAAAJ:zYLM7Y9cAGgC:
-    citations: 1
+    citations: 2
     title: Estimating intra-and inter-subject oxygen consumption in outdoor human gait using multiple neural network approaches
     year: '2024'
