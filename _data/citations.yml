@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-07-27'
 papers:
   05aZndgAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -9,18 +9,26 @@ papers:
     citations: 47
     title: 'AGRA: AI-augmented geographic routing approach for IoT-based incident-supporting applications'
     year: '2019'
+  05aZndgAAAAJ:5nxA0vEk-isC:
+    citations: 2
+    title: A Physics-Informed Digital Twin Framework for Calibrated Sim-to-Real FMCW Radar Occupancy Estimation
+    year: '2026'
+  05aZndgAAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: "Lightweight Range\u2013Angle Imaging Based Algorithm for Quasi-Static Human Detection on Low-Cost FMCW Radar"
+    year: '2026'
   05aZndgAAAAJ:9yKSN-GCB0IC:
-    citations: 93
+    citations: 95
     title: Energy-aware mobile edge computing and routing for low-latency visual data processing
     year: '2018'
   05aZndgAAAAJ:IjCSPb-OGe4C:
     citations: 0
     title: 'sMoBYAL: supervised contrastive active learning for image classification'
     year: '2024'
-  05aZndgAAAAJ:LkGwnXOMwfcC:
-    citations: 0
-    title: Lightweight Range-Angle Imaging Based Algorithm for Quasi-Static Human Detection on Low-Cost FMCW Radar
-    year: '2026'
+  05aZndgAAAAJ:MXK_kJrjxJIC:
+    citations: 6
+    title: Partial membership latent dirichlet allocation
+    year: '2016'
   05aZndgAAAAJ:Se3iqnhoufwC:
     citations: 0
     title: 'Scaling Vision Transformers: Evaluating DeepSpeed for Image-Centric Workloads'
@@ -41,10 +49,6 @@ papers:
     citations: 0
     title: 'Radar-Based Fall Detection for Assisted Living: A Digital-Twin Representation Case Study'
     year: '2026'
-  05aZndgAAAAJ:YsMSGLbcyi4C:
-    citations: 0
-    title: A Physics-Informed Digital Twin Framework for Calibrated Sim-to-Real FMCW Radar Occupancy Estimation
-    year: '2026'
   05aZndgAAAAJ:_FxGoFyzp5QC:
     citations: 0
     title: On QoE-Oriented Cloud Service Orchestration for Application Providers
@@ -62,7 +66,7 @@ papers:
     title: Doppler-Domain Warping and Resampling for Semi-Static Human Occupancy Detection Using Low-Resolution SIMO FMCW Radar
     year: '2026'
   05aZndgAAAAJ:qjMakFHDy7sC:
-    citations: 35
+    citations: 36
     title: Energy-aware mobile edge computing for low-latency visual data processing
     year: '2017'
   05aZndgAAAAJ:roLk4NBRz8UC:
